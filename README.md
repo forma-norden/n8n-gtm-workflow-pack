@@ -10,13 +10,17 @@ workflows that can be adapted across stack variants.
 
 | File | What it does |
 |------|-------------|
-| `.agents/skills/n8n-lead-ingestion-enrichment.md` | Ingests leads from multiple sources, deduplicates, enriches, and validates output schema. |
-| `.agents/skills/n8n-cold-outreach-orchestrator.md` | Controls sequence enrollment, template rotation, and send guardrails. |
-| `.agents/skills/n8n-crm-conversation-sync.md` | Syncs call and email outcomes into CRM with task and follow-up actions. |
-| `.agents/skills/n8n-lead-scoring-routing.md` | Scores leads and routes to sales, nurture, or monitor paths with Slack alerts. |
-| `.agents/skills/n8n-workflow-reliability-guardrails.md` | Applies retries, error workflows, timeout policy, and concurrency controls. |
-| `.agents/skills/n8n-observability-cost-control.md` | Tracks execution health, AI-node usage, and operational cost drift. |
-| `tests/` | Prompt-based tests and validation checklists for all six skills. |
+| .agents/skills/SKILL.md | Orchestrator and routing logic |
+| .agents/skills/n8n-clay-integration.md | Securely syncing data between n8n workflows and Clay tables. |
+| .agents/skills/n8n-self-hosting-guide.md | Best practices for self-hosting n8n for maximum security and scale. |
+| .agents/skills/n8n-lead-ingestion-enrichment.md | Ingests leads, deduplicates, enriches, and validates schemas. |
+| .agents/skills/n8n-cold-outreach-orchestrator.md | Controls sequence enrollment, template rotation, and send guardrails. |
+| .agents/skills/n8n-crm-conversation-sync.md | Syncs call and email outcomes into CRM with task generation. |
+| .agents/skills/n8n-lead-scoring-routing.md | Scores leads and routes to sales, or nurture paths with Slack alerts. |
+| .agents/skills/n8n-workflow-reliability-guardrails.md | Applies retries, error workflows, timeout policy, and concurrency. |
+| .agents/skills/n8n-observability-cost-control.md | Tracks execution health, AI-node usage, and operational cost drift. |
+| esources/references/n8n-node-patterns.md | Standardized configurations for HTTP, Webhook, and Logic nodes. |
+| ECOSYSTEM.md | Cross-repo connectivity map |
 
 ## Prerequisites
 
@@ -81,4 +85,5 @@ If this saves you time, star the repo and follow
 [Forma Nôrden on LinkedIn](https://www.linkedin.com/company/formanorden/).
 
 Built by [Forma Nôrden](https://formanorden.com/) - GTM engineering for B2B companies.
+
 
