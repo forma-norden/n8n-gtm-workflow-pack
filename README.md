@@ -1,4 +1,4 @@
-# n8n-gtm-workflow-pack
+﻿# n8n GTM Workflow Pack
 
 Production workflow patterns for GTM teams using n8n to run enrichment, routing,
 outbound execution, and RevOps handoffs without brittle automations.
@@ -71,17 +71,17 @@ better-engineered GTM systems.
 
 ---
 
-## From the Forma Nôrden GTM Library
+## From the Forma NÃ´rden GTM Library
 
-This is a free resource from the Forma Nôrden open-source GTM library, built by 
+This is a free resource from the Forma NÃ´rden open-source GTM library, built by 
 [Yananai A. Chiwuta](https://yananaichiwuta.com/), GTM engineer and founder of 
-[Forma Nôrden](https://formanorden.com/).
+[Forma NÃ´rden](https://formanorden.com/).
 
 - [Open-source GTM systems](https://github.com/forma-norden): all repos in the library  
 - [GTM engineering blog](https://formanorden.com/blog/): strategy, systems, and outbound deep-dives  
 - [All resources](https://formanorden.com/resources/): guides, frameworks, and templates  
 
 If this saves you time, star the repo and follow 
-[Forma Nôrden on LinkedIn](https://www.linkedin.com/company/formanorden/).
+[Forma NÃ´rden on LinkedIn](https://www.linkedin.com/company/formanorden/).
 
-Built by [Forma Nôrden](https://formanorden.com/): GTM engineering for B2B companies.
+Built by [Forma NÃ´rden](https://formanorden.com/): GTM engineering for B2B companies.
